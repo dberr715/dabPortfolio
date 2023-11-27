@@ -63,11 +63,11 @@
                 >Blog</a
               >
             </li> -->
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#contact"
                 >Contact</a
               >
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
@@ -84,23 +84,58 @@
               <h1 class="text-uppercase display-4 fw-bold" data-aos="fade-up">
                 Hello! I'm David A. Berry, a skilled
                 <span class="text-brand"
-                  >React and Django full-stack developer.</span
+                >React and Django full-stack developer.</span
                 >
               </h1>
               <p
-                class="lead mt-2 mb-3 fs-3"
-                data-aos="fade-up"
-                data-aos-delay="300"
+              class="lead mt-2 mb-3 fs-3"
+              data-aos="fade-up"
+              data-aos-delay="300"
               >
-                I'm thrilled to welcome you. Kindly take a moment to peruse my
-                creations and explore my background.
-              </p>
-              <div data-aos="fade-up" data-aos-delay="600">
-                <a href="#work" class="btn btn-brand fw-bold me-4">
-                  EXPLORE MY WORK</a
+              I'm thrilled to welcome you. Kindly take a moment to peruse my
+              creations and explore my background.
+            </p>
+            <div data-aos="fade-up" data-aos-delay="600">
+              <a href="#work" class="btn btn-brand fw-bold me-4">
+                EXPLORE MY WORK</a
                 >
-                <a href="" class="custom-link num"> Call: 864-529-2474</a>
+                <p class="custom-link num"> 864-529-2474</p>
+                
+                  <div class="col-auto mb-0"></div>
+                  <div class="social-icons col-auto">
+                    <a
+                      href="https://www.linkedin.com/in/david-berry7/"
+                      target="_blank"
+                      ><i class="lab la-linkedin-in"></i
+                    ></a>
+                    <a href="https://github.com/dberr715" target="_blank"
+                      ><i class="lab la-github"></i
+                    ></a>
+                  </div>
+               
               </div>
+            </div>
+          </div>
+        </div>
+        <div class="container gy-4">
+          <div class="row justify-content-center text-center p-4">
+            <div class="col-md-8 pb-4" data-aos="fade-up">
+             
+                <div class="form-group col-md-6">
+                  <p></p>
+                </div>
+  
+                <div class="col-md-12 form-group">
+                  
+                  
+                  <button>Click for Resume</button>
+                </div>
+                <div class="col-md-12 form-group">
+                  <p>dberry3755@gmail.com</p>
+                </div>
+  
+                <div class="col-md-12 form-group d-grid"></div>
+              </form>
             </div>
           </div>
         </div>
@@ -367,7 +402,10 @@
       <!-- //REVIEWS -->
 
       <!-- CONTACT -->
+
       <section id="contact" class="full-hight px-lg-5">
+      </section>
+      <!-- <section id="contact" class="full-hight px-lg-5">
         <div class="container gy-4">
           <div class="row justify-content-center text-center p-4">
             <div class="col-md-8 pb-4" data-aos="fade-up">
@@ -376,7 +414,8 @@
             </div>
             <div class="col-md-8">
               <form
-                action=""
+                action="http://localhost:8000"
+                method="post"
                 class="row g-lg-3 gy-2"
                 data-aos="fade-up"
                 data-aos-delay="300"
@@ -384,60 +423,49 @@
                 <div class="form-group col-md-6">
                   <input
                     type="text"
+                    name="name"
                     class="form-control"
-                    placeholder="Enter your name "
+                    placeholder="Enter your name"
                   />
                 </div>
                 <div class="form-group col-md-6">
                   <input
                     type="email"
+                    name="email"
                     class="form-control"
-                    placeholder="Enter your email "
+                    placeholder="Enter your email"
                   />
                 </div>
                 <div class="col-md-12 form-group">
                   <input
                     type="text"
+                    name="subject"
                     class="form-control"
-                    placeholder="Enter your subject "
+                    placeholder="Enter your subject"
                   />
                 </div>
                 <div class="col-md-12 form-group">
                   <textarea
+                    name="message"
                     rows="5"
                     class="form-control"
-                    placeholder="Enter your message "
+                    placeholder="Enter your message"
                   ></textarea>
                 </div>
-
                 <div class="col-md-12 form-group d-grid">
-                  <button class="btn btn-brand">Contact me</button>
+                  <button type="submit" class="btn btn-brand">
+                    Contact me
+                  </button>
                 </div>
               </form>
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- //CONTACT -->
 
       <!-- FOOTER -->
-      <footer class="px-lg-5 py-4">
-        <div class="container m-4">
-          <div class="row justify-content-between gy-4">
-            <div class="col-auto mb-0"></div>
-            <div class="social-icons col-auto">
-              <a
-                href="https://www.linkedin.com/in/david-berry7/"
-                target="_blank"
-                ><i class="lab la-linkedin-in"></i
-              ></a>
-              <a href="https://github.com/dberr715" target="_blank"
-                ><i class="lab la-github"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <footer class="px-lg-5 py-4"></footer>
       <!-- //FOOTER -->
     </div>
     <!--//CONTENT WRAPPER -->
