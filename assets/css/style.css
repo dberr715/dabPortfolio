@@ -5,7 +5,7 @@
   --color-heading: #eef3db;
   --color-base: #057786;
   --color-base2: #022a30;
-  --color-brand: #FFFF00;
+  --color-brand: #ffff00;
   --color-brand2: #46540f;
   --sidbar-width: 240px;
   --font-base: "Kanit";
@@ -130,7 +130,7 @@ img {
 }
 
 .stars {
-  color: var(--color-brand2);
+  color: var(--color-brand);
 }
 
 .btn-brand {
@@ -154,6 +154,7 @@ img {
 .custom-link {
   font-weight: 700;
   position: relative;
+  margin-top: 20px;
 }
 
 .custom-link::after {
@@ -213,7 +214,7 @@ img {
 
 @media (max-width: 422px) {
   .num {
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
     display: block;
   }
 }
