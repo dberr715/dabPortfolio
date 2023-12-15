@@ -104,24 +104,7 @@ img {
   /* border-color: #f36538; */
 }
 
-.review-container {
-  max-height: 500px;
-  overflow: hidden;
-  position: relative;
-}
 
-.overflow-ellipsis {
-  position: relative;
-}
-
-.show-more-btn {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  background: white;
-  padding: 5px;
-  cursor: pointer;
-}
 
 .shadow-effect {
   transition: all 0.5s ease;
