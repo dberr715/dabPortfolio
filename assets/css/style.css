@@ -12,8 +12,8 @@
 }
 
 body {
-  background-color: var(--color-base2);
-  color: var(--color-body);
+  background-color: #292929;
+  color: #f36538;
   font-family: var(--font-base);
 }
 
@@ -45,7 +45,7 @@ a {
 }
 
 a:hover {
-  color: var(--color-brand);
+  color: #f36538;
 }
 
 img {
@@ -62,7 +62,7 @@ img {
   color: white;
 }
 .navbar .nav-link:hover {
-  color: var(--color-brand);
+  color: #f36538;
 }
 
 @media (min-width: 992px) {
@@ -76,7 +76,7 @@ img {
   }
 
   .navbar-brand img {
-    border: 5px solid var(--color-brand);
+    border: 5px solid #f36538;
   }
 
   #content-wrapper {
@@ -85,7 +85,7 @@ img {
 }
 
 .text-brand {
-  color: var(--color-brand);
+  color: #f36538;
 }
 
 .full-hight {
@@ -108,11 +108,11 @@ img {
 }
 
 .shadow-effect:hover {
-  box-shadow: -6px 6px 0 0 var(--color-brand);
+  box-shadow: -6px 6px 0 0 #f36538;
 }
 
 .navbar .nav-link.active {
-  color: var(--color-brand);
+  color: #f36538;
 }
 
 .iconbox {
@@ -123,8 +123,8 @@ img {
   align-items: center;
   justify-content: center;
   font-size: 32px;
-  background-color: var(--color-brand);
-  color: var(--color-base);
+  background-color: #f36538;
+  color: 292929;
 }
 
 /* BTN */
@@ -134,24 +134,24 @@ img {
 }
 
 .stars {
-  color: var(--color-brand);
+  color: #f9a53f;
 }
 
 .btn-brand {
-  border: 2px solid var(--color-brand);
-  background-color: var(--color-brand);
-  border: 2px solid var(--color-brand2);
+  border: 2px solid #f36538;
+  background-color: #f36538;
+  border: 2px solid #f36538;
 }
 
 .text-brand {
-  color: var(--color-brand);
+  color: #f36538;
 }
 
 .btn-brand:hover,
 .btn-brand:focus {
-  background-color: var(--color-brand2);
-  border: 2px solid var(--color-brand2);
-  color: var(--color-base);
+  background-color: #f9a53f;
+  border: 2px solid #f36538;
+  color: #e4f9f5;
 }
 /* //BTN */
 
@@ -165,7 +165,7 @@ img {
   content: "";
   width: 0;
   height: 2px;
-  background-color: var(--color-brand);
+  background-color: #f36538;
   position: absolute;
   left: 0;
   top: 110%;
@@ -178,17 +178,17 @@ img {
 }
 
 .navbar {
-  background-color: var(--color-base);
+  background-color: #292929
 }
 
 #contact .form-control {
-  background-color: var(--color-base);
+  background-color: #292929;
   color: var(--color-body);
-  border-color: var(--color-base);
+  border-color: #f36538;
 }
 
 #contact .form-control:focus {
-  border-color: var(--color-brand);
+  border-color: #f36538;
   box-shadow: none;
 }
 
@@ -207,8 +207,8 @@ img {
   justify-content: center;
   align-items: center;
   border-radius: 100px;
-  background-color: var(--color-base);
-  color: var(--color-brand);
+  background-color: #292929;
+  color: #f9a53f;
   font-size: 24px;
 }
 .profilepic {
