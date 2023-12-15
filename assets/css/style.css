@@ -40,7 +40,7 @@ h6 {
 
 a {
   text-decoration: none;
-  color: var(--color-body);
+  color: #f36538;
   transition: all 0.4s ease;
 }
 
@@ -76,7 +76,7 @@ img {
   }
 
   .navbar-brand img {
-    border: 5px solid #f9a53f;
+    border: 5px solid #f36538;
   }
 
   #content-wrapper {
@@ -101,7 +101,7 @@ img {
 
 .bg-base {
   background-color: #595959;
-  border-color: #f36538;
+  /* border-color: #f36538; */
 }
 
 .shadow-effect {
