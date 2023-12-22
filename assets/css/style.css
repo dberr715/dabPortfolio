@@ -10,12 +10,11 @@
   --sidbar-width: 240px;
   --font-base: "Kanit";
 }
-@media only screen and (max-width: 600px) {
-  .review-button-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
+
+.review-button-container {
+  display: flex;
+  justify-content: left;
+  margin-top: 20px;
 }
 
 body {
