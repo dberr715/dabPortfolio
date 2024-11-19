@@ -237,10 +237,31 @@ img {
   height: 300px;
 }
 
-
 @media (max-width: 422px) {
   .num {
     /* padding-top: 2rem; */
     display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Services Section - Single Column Layout */
+  #services .row.gy-4 > div {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  /* Projects Section - Single Column Layout */
+  .project-card-row .project-card {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .project-card img {
+    height: auto; /* Ensure the images resize correctly */
+  }
+
+  .review-button-container {
+    justify-content: flex-start; /* Center buttons on smaller screens */
   }
 }
