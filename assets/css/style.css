@@ -250,11 +250,6 @@ img {
     flex: 0 0 100%;
     max-width: 100%;
   }
-  .full-hight {
-    min-height: unset; /* Removes the min-height on smaller screens */
-    padding-top: 20px; /* Adjusts padding for better spacing */
-    padding-bottom: 20px;
-  }
 
   #video-introduction {
     padding-top: 10px;
